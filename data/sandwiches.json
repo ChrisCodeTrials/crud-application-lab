@@ -2,7 +2,7 @@
   {
     "name": "Chicken Club",
     "priceInCents": 1250,
-    "inStock":  true,
+    "inStock": true,
     "isVegan": false
   },
   {
@@ -18,8 +18,8 @@
     "isVegan": false
   },
   {
-    "name": "Veggie Wrap",
-    "priceInCents": 1075,
+    "name": "Veggie wrap",
+    "priceInCents": 1461,
     "inStock": true,
     "isVegan": true
   },

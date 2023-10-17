@@ -1,66 +1,24 @@
 [
   {
+    "name": "Chicken Cutlet",
+    "priceInCents": 1064,
+    "inStock": true,
+    "isVegan": true,
+    "sku": "c3ztZS"
+  },
+  {
+    "name": "Chicken Cutlet",
+    "priceInCents": 1064,
+    "inStock": true,
+    "isVegan": true,
+    "sku": "c3ztZS"
+  },
+  {
     "name": "dog",
     "inStock": true,
     "isVegan": true,
     "sku": "c3ztZS",
     "priceInCents": 1135
-  },
-  {
-    "name": "Chicken Cutlet",
-    "priceInCents": 1313,
-    "inStock": false,
-    "isVegan": false,
-    "sku": "0tMVXP"
-  },
-  {
-    "name": "Chicken Cutlet",
-    "priceInCents": 1440,
-    "inStock": true,
-    "isVegan": true,
-    "sku": "PPmlwk"
-  },
-  {
-    "name": "Chicken Cutlet",
-    "priceInCents": 1107,
-    "inStock": false,
-    "isVegan": false,
-    "sku": "6WC66K"
-  },
-  {
-    "name": "Chicken Cutlet",
-    "priceInCents": 1404,
-    "inStock": false,
-    "isVegan": true,
-    "sku": "8tcI14"
-  },
-  {
-    "name": "Chicken Cutlet",
-    "priceInCents": 1470,
-    "inStock": true,
-    "isVegan": false,
-    "sku": "WNxiyF"
-  },
-  {
-    "name": "Chicken Cutlet",
-    "priceInCents": 1064,
-    "inStock": true,
-    "isVegan": true,
-    "sku": "c3ztZS"
-  },
-  {
-    "name": "Chicken Cutlet",
-    "priceInCents": 1064,
-    "inStock": true,
-    "isVegan": true,
-    "sku": "c3ztZS"
-  },
-  {
-    "name": "Chicken Cutlet",
-    "priceInCents": 1064,
-    "inStock": true,
-    "isVegan": true,
-    "sku": "c3ztZS"
   },
   {
     "name": "dog",

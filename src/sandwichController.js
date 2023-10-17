@@ -60,19 +60,18 @@ function singleItem (shoppingCart, sandwichId) {
     return sandwich.sku + ' ' + sandwich.name + ' ' + "$"+(sandwich.priceInCents)/100;
 }
 
-function update(shoppingCart, sandwichId, updatedSandwich){
-    const index = shoppingCart.findIndex((sandwich) => sandwich.sku === sandwichId)
+function update(sandwiches, sandwichId, updatedSandwich){
+    const index = sandwiches.findIndex((sandwich) => sandwich.name === sandwichId)
     if (index > -1){
-        shoppingCart[index].name = updatedSandwich
-        shoppingCart[index].priceInCents = sandwiches[updatedSandwich] || faker.number.int({ min: 1000, max: 1500})
-        shoppingCart[index].inStock = true
-        shoppingCart[index].isVegan = faker.datatype.boolean()
-        shoppingCart[index].sku = sandwichId
+        sandwiches[index].name = updatedSandwich
+        sandwiches[index].priceInCents = sandwiches[updatedSandwich] || faker.number.int({ min: 1000, max: 1500})
+        sandwiches[index].inStock = true
+        sandwiches[index].isVegan = faker.datatype.boolean()
         inform('Sandwich successfully updated')
-        return shoppingCart
+        return sandwiches
     } else {
         inform('Sandwich was not found; no action taken')
-        return shoppingCart
+        return sandwiches
     }
 } 
 
