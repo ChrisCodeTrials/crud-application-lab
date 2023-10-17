@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Chicken Club",
+    "priceInCents": 1250,
+    "inStock":  true,
+    "isVegan": false
+  },
+  {
+    "name": "Turkey and Swiss",
+    "priceInCents": 1175,
+    "inStock": true,
+    "isVegan": false
+  },
+  {
+    "name": "Italian Sub",
+    "priceInCents": 1425,
+    "inStock": true,
+    "isVegan": false
+  },
+  {
+    "name": "Veggie Wrap",
+    "priceInCents": 1075,
+    "inStock": true,
+    "isVegan": true
+  },
+  {
+    "name": "Tuna Salad",
+    "priceInCents": 1300,
+    "inStock": false,
+    "isVegan": false
+  },
+  {
+    "name": "BLT",
+    "priceInCents": 1200,
+    "inStock": true,
+    "isVegan": false
+  },
+  {
+    "name": "Grilled Cheese",
+    "priceInCents": 1050,
+    "inStock": true,
+    "isVegan": true
+  },
+  {
+    "name": "Roast Beef",
+    "priceInCents": 1125,
+    "inStock": true,
+    "isVegan": false
+  },
+  {
+    "name": "Pastrami on Rye",
+    "priceInCents": 1400,
+    "inStock": true,
+    "isVegan": false
+  },
+  {
+    "name": "Ham and Cheese",
+    "priceInCents": 1025,
+    "inStock": true,
+    "isVegan": false
+  },
+  {
+    "name": "Steak and Cheese",
+    "priceInCents": 1375,
+    "inStock": true,
+    "isVegan": false
+  },
+  {
+    "name": "Cuban Sandwich",
+    "priceInCents": 1295,
+    "inStock": false,
+    "isVegan": false
+  },
+  {
+    "name": "Reuben",
+    "priceInCents": 1150,
+    "inStock": true,
+    "isVegan": false
+  },
+  {
+    "name": "Egg Salad",
+    "priceInCents": 1035,
+    "inStock": true,
+    "isVegan": false
+  },
+  {
+    "name": "Chicken Parmesan",
+    "priceInCents": 1475,
+    "inStock": false,
+    "isVegan": false
+  }
+]

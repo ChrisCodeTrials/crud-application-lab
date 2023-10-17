@@ -3,8 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "scripts":{
+    "test": "jest",
+    "showCart": "node index.js showCart",
+    "create": "node index.js create",
+    "singleItem": "node index.js singleItem",
+    "update": "node index.js update",
+    "remove": "node index.js remove",
+    "total": "node index.js total",
+    "cancelCart": "node index.js cancelCart"
   },
   "keywords": [],
   "author": "",
