@@ -10,6 +10,12 @@ function create(shoppingCart, sandwichType) {
            return shoppingCart
         }
     }
+    for (createdSandwich of shoppingCart){ //if the sandwich was just added to the cart it will keep the same values as the newly created sandwich
+        if (createdSandwich.name === sandwichType){
+            shoppingCart.push(createdSandwich)
+            return shoppingCart
+        }
+    }
     const newSandwich = {
         name: sandwichType,
         priceInCents: faker.number.int({ min: 1000, max: 1500}),
@@ -58,8 +64,8 @@ function update(shoppingCart, sandwichId, updatedSandwich){
     const index = shoppingCart.findIndex((sandwich) => sandwich.sku === sandwichId)
     if (index > -1){
         shoppingCart[index].name = updatedSandwich
-        shoppingCart[index].price = sandwiches[updatedSandwich] || faker.commerce.price({ min: 10, max: 15, dec: 2, symbol: '$' }),
-        shoppingCart[index].inStock = faker.datatype.boolean()
+        shoppingCart[index].priceInCents = sandwiches[updatedSandwich] || faker.number.int({ min: 1000, max: 1500})
+        shoppingCart[index].inStock = true
         shoppingCart[index].isVegan = faker.datatype.boolean()
         shoppingCart[index].sku = sandwichId
         inform('Sandwich successfully updated')
@@ -77,7 +83,6 @@ module.exports = {
     cancelCart,
     update,
     remove,
-    total,
-    
+    total
 }
 
