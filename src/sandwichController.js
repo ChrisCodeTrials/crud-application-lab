@@ -75,6 +75,14 @@ function update(sandwiches, sandwichId, updatedSandwich){
     }
 } 
 
+function vegan (sandwiches){
+    return veganOptions = sandwiches.filter((sandwich) => sandwich.isVegan === true)
+}
+
+function valueMenu (sandwiches){
+    return lessThan15 = sandwiches.filter((sandwich)=> sandwich.priceInCents >= 1300)
+}
+
 module.exports = {
     create,
     showCart,
@@ -82,6 +90,8 @@ module.exports = {
     cancelCart,
     update,
     remove,
-    total
+    total,
+    vegan,
+    valueMenu
 }
 

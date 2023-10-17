@@ -11,7 +11,9 @@
     "update": "node index.js update",
     "remove": "node index.js remove",
     "total": "node index.js total",
-    "cancelCart": "node index.js cancelCart"
+    "cancelCart": "node index.js cancelCart",
+    "vegan": "node index.js vegan",
+    "valueMenu": "node index.js valueMenu"
   },
   "keywords": [],
   "author": "",

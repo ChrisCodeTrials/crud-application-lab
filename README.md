@@ -24,4 +24,6 @@ __Welcome New Employee to the Sandwich Shop! :)__
 - __singleItem__- The singleItem feature allows us to see what the particular item costs and its name. This feature requires the item to be in the shopping-cart as the unique "sku" is required to track the sandwich.
 //__example__: "npm run singleItem 'unique-sku'"
 
+- __vegan__ - The vegan feature lets us see the which sandwich options we offer that are vegan.
+//__example__: "npm run vegan"
 ---

@@ -1,5 +1,5 @@
 const { readJSONFile, writeJSONFile } = require('./src/helpers')
-const { create, showCart, singleItem, cancelCart, remove, update,  total } = require('./src/sandwichController')
+const { create, showCart, singleItem, cancelCart, remove, update, total, vegan, valueMenu } = require('./src/sandwichController')
 const shoppingCart = readJSONFile('./data', 'shoppingCart.json')
 const sandwiches = readJSONFile('./data', 'sandwiches.json')
 
@@ -41,6 +41,14 @@ function run() {
     case 'remove':
         updatedSandwiches = remove(shoppingCart, sandwich)
         writeToFile = true
+        break;
+    case 'vegan':
+        const viewVegan = vegan(sandwiches)
+        inform(viewVegan)
+        break;
+    case 'valueMenu':
+        const lessThan15 = valueMenu(sandwiches)
+        inform(lessThan15)
         break;
     default:
       inform('There was an error.');

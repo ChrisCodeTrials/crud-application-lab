@@ -7,7 +7,7 @@
   },
   {
     "name": "Turkey and Swiss",
-    "priceInCents": 1175,
+    "priceInCents": 875,
     "inStock": true,
     "isVegan": false
   },
@@ -19,25 +19,25 @@
   },
   {
     "name": "Veggie wrap",
-    "priceInCents": 1461,
+    "priceInCents": 961,
     "inStock": true,
     "isVegan": true
   },
   {
     "name": "Tuna Salad",
-    "priceInCents": 1300,
+    "priceInCents": 1000,
     "inStock": false,
     "isVegan": false
   },
   {
     "name": "BLT",
-    "priceInCents": 1200,
+    "priceInCents": 900,
     "inStock": true,
     "isVegan": false
   },
   {
     "name": "Grilled Cheese",
-    "priceInCents": 1050,
+    "priceInCents": 700,
     "inStock": true,
     "isVegan": true
   },
@@ -61,31 +61,31 @@
   },
   {
     "name": "Steak and Cheese",
-    "priceInCents": 1375,
+    "priceInCents": 1675,
     "inStock": true,
     "isVegan": false
   },
   {
     "name": "Cuban Sandwich",
-    "priceInCents": 1295,
+    "priceInCents": 1695,
     "inStock": false,
     "isVegan": false
   },
   {
     "name": "Reuben",
-    "priceInCents": 1150,
+    "priceInCents": 1750,
     "inStock": true,
     "isVegan": false
   },
   {
     "name": "Egg Salad",
-    "priceInCents": 1035,
+    "priceInCents": 635,
     "inStock": true,
     "isVegan": false
   },
   {
     "name": "Chicken Parmesan",
-    "priceInCents": 1475,
+    "priceInCents": 1600,
     "inStock": false,
     "isVegan": false
   }
